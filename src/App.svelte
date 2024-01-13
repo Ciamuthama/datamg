@@ -1,3 +1,7 @@
 <script lang="ts">
-  import "./routes/+layout.svelte"
+  import Layout from "./routes/+layout.svelte";
 </script>
+
+<div>
+  <Layout />
+</div>
