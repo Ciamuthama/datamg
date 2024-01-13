@@ -6,8 +6,8 @@
     export let data
     export let form
 
-    let {session, superbase, profile} = data
-    $:  ({session, superbase, profile} = data)
+    let {session, supabase, profile} = data
+    $:  ({session, supabase, profile} = data)
 
     let profileForm:HTMLFormElement
     let loading= false
