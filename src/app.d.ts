@@ -1,15 +1,13 @@
-import { SupabaseClient, Session } from "@supabase/supabase-js"
-//import { DataBase } from './DatabaseDefinitions'
-
-declare global{
-    namespace App{
-        interface Local {
-            superbase: SupabaseClient
-            getSession(): Promise<Session | null>
-        }
-        interface PageData{
-            session: Session| null
-        }
-    }
+// See https://kit.svelte.dev/docs/types#app
+// for information about these interfaces
+declare global {
+	namespace App {
+		// interface Error {}
+		// interface Locals {}
+		// interface PageData {}
+		// interface PageState {}
+		// interface Platform {}
+	}
 }
 
+export {};
