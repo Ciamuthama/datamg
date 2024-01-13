@@ -53,7 +53,7 @@
 
     <div>
         <label for="fullname">Email </label>
-        <input type="text" id="email" disabled value={session.user.email} />
+        <input type="text" id="email" disabled value={session?.user.email} />
     </div>
 
     <div>
