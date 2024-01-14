@@ -11,7 +11,7 @@
 
     let profileForm:HTMLFormElement
     let loading= false
-    let fullname: string = profile?.full_name?? ""
+    let fullName: string = profile?.full_name?? ""
     let username: string = profile?.username ?? ""
     let website: string = profile?.website ?? ""
     let avatarUrl: string = profile?.avatar_url ?? ""
@@ -58,7 +58,7 @@
 
     <div>
         <label for="fullname">Full Name</label>
-        <input type="text" name="full_name" id="fullname" required value={form?.fullname ?? fullname}/>
+        <input type="text" name="full_name" id="fullname" required value={form?.fullName ?? fullName}/>
     </div>
 
     <div>
@@ -68,7 +68,7 @@
 
     <div>
         <label for="website"></label>
-        <input type="text" name="wesite" value={form?.wesite ?? website}/>
+        <input type="text" name="wesite" value={form?.website ?? website}/>
     </div>
 
     <div>
